@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [AxesTestSuite]" parallel="tests">
+  <test thread-count="10" name="LocatorsTest-relativeXPath(failed)" parallel="tests">
+    <parameter name="locator" value="relativeXPath"/>
+    <classes>
+      <class name="com.herokuapp.theinternet.AxesTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="axesTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.herokuapp.theinternet.AxesTests -->
+    </classes>
+  </test> <!-- LocatorsTest-relativeXPath(failed) -->
+</suite> <!-- Failed suite [AxesTestSuite] -->

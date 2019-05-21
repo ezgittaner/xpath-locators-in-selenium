@@ -13,23 +13,20 @@ public class Base {
 	protected Logger log;
 	protected WebDriver driver;
 
-
 	@BeforeMethod
 	protected void setUp(ITestContext ctx) {
 		setCurrentThreadName();
 		String testName = ctx.getCurrentXmlTest().getName();
 		log = LogManager.getLogger(testName);
-		System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 	}
-
 
 	@AfterMethod
 	protected void tearDown() {
 		driver.quit();
 	}
-
 
 	/** Sets thread name which includes thread id */
 	private void setCurrentThreadName() {

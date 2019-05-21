@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [LocatorsTestSuite]" parallel="tests">
+  <test thread-count="10" name="LocatorsTest-id(failed)" parallel="tests">
+    <parameter name="locator" value="id"/>
+    <classes>
+      <class name="com.herokuapp.theinternet.LocatorTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="locatorTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.herokuapp.theinternet.LocatorTests -->
+    </classes>
+  </test> <!-- LocatorsTest-id(failed) -->
+  <test thread-count="10" name="LocatorsTest-linkText(failed)" parallel="tests">
+    <parameter name="locator" value="linkText"/>
+    <classes>
+      <class name="com.herokuapp.theinternet.LocatorTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="locatorTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.herokuapp.theinternet.LocatorTests -->
+    </classes>
+  </test> <!-- LocatorsTest-linkText(failed) -->
+  <test thread-count="10" name="LocatorsTest-className(failed)" parallel="tests">
+    <parameter name="locator" value="className"/>
+    <classes>
+      <class name="com.herokuapp.theinternet.LocatorTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="locatorTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.herokuapp.theinternet.LocatorTests -->
+    </classes>
+  </test> <!-- LocatorsTest-className(failed) -->
+  <test thread-count="10" name="LocatorsTest-absoluteXPath(failed)" parallel="tests">
+    <parameter name="locator" value="absoluteXPath"/>
+    <classes>
+      <class name="com.herokuapp.theinternet.LocatorTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="locatorTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.herokuapp.theinternet.LocatorTests -->
+    </classes>
+  </test> <!-- LocatorsTest-absoluteXPath(failed) -->
+  <test thread-count="10" name="LocatorsTest-relativeXPath(failed)" parallel="tests">
+    <parameter name="locator" value="relativeXPath"/>
+    <classes>
+      <class name="com.herokuapp.theinternet.LocatorTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="locatorTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.herokuapp.theinternet.LocatorTests -->
+    </classes>
+  </test> <!-- LocatorsTest-relativeXPath(failed) -->
+  <test thread-count="10" name="LocatorsTest-tag(failed)" parallel="tests">
+    <parameter name="locator" value="tag"/>
+    <classes>
+      <class name="com.herokuapp.theinternet.LocatorTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="locatorTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.herokuapp.theinternet.LocatorTests -->
+    </classes>
+  </test> <!-- LocatorsTest-tag(failed) -->
+  <test thread-count="10" name="LocatorsTest-name(failed)" parallel="tests">
+    <parameter name="locator" value="name"/>
+    <classes>
+      <class name="com.herokuapp.theinternet.LocatorTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="locatorTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.herokuapp.theinternet.LocatorTests -->
+    </classes>
+  </test> <!-- LocatorsTest-name(failed) -->
+  <test thread-count="10" name="LocatorsTest-css(failed)" parallel="tests">
+    <parameter name="locator" value="css"/>
+    <classes>
+      <class name="com.herokuapp.theinternet.LocatorTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="locatorTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.herokuapp.theinternet.LocatorTests -->
+    </classes>
+  </test> <!-- LocatorsTest-css(failed) -->
+  <test thread-count="10" name="LocatorsTest-partialLinkText(failed)" parallel="tests">
+    <parameter name="locator" value="partialLinkText"/>
+    <classes>
+      <class name="com.herokuapp.theinternet.LocatorTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="locatorTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.herokuapp.theinternet.LocatorTests -->
+    </classes>
+  </test> <!-- LocatorsTest-partialLinkText(failed) -->
+</suite> <!-- Failed suite [LocatorsTestSuite] -->
